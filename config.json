@@ -86,6 +86,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "student-planner-app",
+      "title": "Student Planner App",
+      "description": "Create a planner app that tracks homework tasks and due dates.",
+      "path": "assignments/student-planner-app",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
