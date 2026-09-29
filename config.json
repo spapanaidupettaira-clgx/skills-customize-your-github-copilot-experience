@@ -114,6 +114,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-sqlite-library-catalog",
+      "title": "Python and SQLite: Library Catalog",
+      "description": "Build a Python library catalog that stores, searches, and updates books in a SQLite database.",
+      "path": "assignments/python-sqlite-library-catalog",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
