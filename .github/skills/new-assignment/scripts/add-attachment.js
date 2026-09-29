@@ -17,6 +17,7 @@ const repoRoot = path.resolve(__dirname, "../../../../");
 const configPath = path.join(repoRoot, "config.json");
 const filePath = path.join(repoRoot, "assignments", assignmentId, filename);
 
+// Verify the file exists on disk
 if (!fs.existsSync(filePath)) {
   console.error(`Error: File not found: assignments/${assignmentId}/${filename}`);
   process.exit(1);
@@ -31,10 +32,12 @@ if (!assignment) {
   process.exit(1);
 }
 
+// Create attachments array if it doesn't exist
 if (!assignment.attachments) {
   assignment.attachments = [];
 }
 
+// Skip if an attachment with the same filename already exists
 const existing = assignment.attachments.find((a) => a.file === filename);
 if (existing) {
   console.log(`Skipped: "${filename}" is already attached to "${assignmentId}"`);
