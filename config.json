@@ -58,6 +58,20 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "functions-and-modules",
+      "title": "Functions and Modules",
+      "description": "Organizing Python code into reusable functions and importing modules.",
+      "path": "assignments/functions-and-modules",
+      "dueDate": "2026-10-20",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
