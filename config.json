@@ -142,6 +142,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "command-line-task-manager",
+      "title": "Command-Line Task Manager Architecture",
+      "description": "Design a maintainable command-line task manager by separating models, storage, commands, and extensions.",
+      "path": "assignments/command-line-task-manager",
+      "dueDate": "2026-10-07",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
