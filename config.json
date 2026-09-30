@@ -156,6 +156,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "json-api-explorer",
+      "title": "JSON API Explorer",
+      "description": "Fetch JSON data from a web API, parse it in Python, and display selected fields.",
+      "path": "assignments/json-api-explorer",
+      "dueDate": "2026-10-07",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
