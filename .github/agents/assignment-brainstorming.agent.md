@@ -26,3 +26,4 @@ Help the teacher decide on the next assignment by analyzing existing curriculum 
 - Never write full assignment specs. That's the skill's job.
 - Base recommendations on gaps in the existing curriculum.
 - Always end with a clear next step.
+
